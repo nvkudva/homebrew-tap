@@ -1,8 +1,8 @@
 class Ollajev < Formula
   desc "Run System One decision models from Hugging Face locally, Ollama style"
   homepage "https://github.com/nvkudva/ollajev"
-  url "https://files.pythonhosted.org/packages/d8/c7/b2c526ada993eda855fbfa5f7a20279d49095443ead994cfd20979872521/ollajev-0.3.1.tar.gz"
-  sha256 "3b183489cb5ef99b1cbab95c8b9949f4aaf198263480044387e4a02ca5c7987c"
+  url "https://files.pythonhosted.org/packages/2e/e5/42ab180a7b702026b9f6bf4a29d8a59540eabbe062f0c9e9cfddb5d06839/ollajev-0.4.0.tar.gz"
+  sha256 "faac59d2b13457e51ef638b6bac8a83a0e1b28c71aa71c11fa1185ae86ed3558"
   license "Apache-2.0"
 
   depends_on "cmake" => :build # llama-cpp-python compiles llama.cpp
